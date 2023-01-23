@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% load render_table from django_tables2 %}
+{% block main %}
+{% include "components/header.html" %}
+<div class="d-flex flex-column p-3">
+  <section>
+    <h1 class="h3 secondary">Stock List</h1>
+    {% render_table stocks %}
+  </section>
+</div>
+{% include "components/footer.html" %}
+{% endblock %}

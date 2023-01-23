@@ -1,0 +1,21 @@
+header {
+  background-color: #424242;
+  color: #FFFFFF; 
+  font-family: 'Roboto Condensed', 'serif';
+  font-size: 1rem;
+  height: 50px;
+}
+
+a {
+  text-decoration: none;
+  text-transform: none;
+}
+
+footer p{
+  color: #c0c0c0;
+  font-size: 20px;
+}
+
+section {
+  width: 50%;
+}
